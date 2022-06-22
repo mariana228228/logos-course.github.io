@@ -1,0 +1,27 @@
+.container{
+    height: 100px;
+    background-color: #f1c1af;
+    background-color: #dcdc36;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    line-height: 100px;
+}
+.nav a{
+    margin-right: 50px;
+    color: #fff;
+}
+
+.img img{
+    width: 80px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+
+.white_btn{
+    border-radius: 20px;
+
+}
