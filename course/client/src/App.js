@@ -8,6 +8,7 @@ import {checkUserAuth} from "./redux/reducers/authReducer";
 //
 
     const App = () => {
+        console.log("hello from Ihor");
         const dispatch = useDispatch()
         const {isFirstLoading} = useSelector(state => state.authReducer)
         useEffect(() => {
